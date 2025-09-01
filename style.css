@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+
+
+}
+#logo {
+    max-width: 150px; /* Limita a largura máxima da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaçamento abaixo da logo */
+    
+}
+#titulo-menusuperior {
+    font-size: 2.5em; /* Tamanho do título */
+    margin-bottom: 10px;
+}
+#texto-menusuperior {
+   font-size: 1.2em; /* Tamanho do texto */
+    max-width: 800px; /* Limita a largura do texto para melhor leitura */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+#menu-superior {
+   background-image: url("image/as vellas atualizada.png");
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 560px; /* Defina a altura da div para corresponder à altura da sua imagem de fundo */
+    width: 100%; /* A largura será 100% da tela */
+    display: flex; /* Para alinhar os itens internos */
+    flex-direction: column; /* Para empilhar os itens verticalmente */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    color: rgb(8, 8, 8); /* Cor do texto para contraste com o fundo */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Garante que padding não adicione à altura/largura total */
+
+}
+
+
+#produtos {
+    line-height: 1.6;
+}
